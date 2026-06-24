@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antonio Borges — Desenvolvedor</title>
+  <meta name="description" content="Portfólio de Antonio Borges — desenvolvedor. Experiências, projetos e formas de contato." />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Antonio Borges — Desenvolvedor" />
+  <meta property="og:description" content="Portfólio com experiências e projetos." />
+  <meta property="og:type" content="website" />
+
+  <!-- Inter font (lightweight, dark-theme friendly) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Fixed top navigation -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#hero" class="brand" aria-label="Início">
+        <span class="brand-dot" aria-hidden="true"></span>
+        Antonio
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero container">
+      <p class="hero-eyebrow reveal">Olá, eu sou</p>
+      <h1 class="hero-title reveal">
+        Antonio Borges<span class="accent">.</span>
+      </h1>
+      <p class="hero-subtitle reveal">
+        Desenvolvedor focado em construir
+        <span class="accent">experiências digitais</span>
+        rápidas, acessíveis e bem-feitas.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+        <a href="#contato" class="btn btn-ghost">Contato</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="sobre" class="section container">
+      <h2 class="section-title reveal"><span class="accent">#</span> Sobre</h2>
+      <div class="about reveal">
+        <p class="about-text">
+          Sou desenvolvedor e gosto de transformar ideias em produtos reais.
+          Tenho interesse em interfaces limpas, performance e código que outras
+          pessoas conseguem entender e manter. Abaixo, um resumo da minha
+          trajetória.
+        </p>
+
+        <!-- Compact experience timeline -->
+        <ul class="timeline">
+          <li class="timeline-item">
+            <span class="timeline-period">2024 — Atual</span>
+            <div class="timeline-body">
+              <h3>Cargo atual</h3>
+              <p>Empresa · breve descrição do que você faz e do impacto gerado.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-period">2022 — 2024</span>
+            <div class="timeline-body">
+              <h3>Cargo anterior</h3>
+              <p>Empresa · principais responsabilidades e tecnologias usadas.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-period">2021 — 2022</span>
+            <div class="timeline-body">
+              <h3>Primeira experiência</h3>
+              <p>Empresa · onde tudo começou e o que você aprendeu.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projetos" class="section container">
+      <h2 class="section-title reveal"><span class="accent">#</span> Projetos</h2>
+      <div class="projects-grid">
+        <article class="card reveal">
+          <h3 class="card-title">Projeto Um</h3>
+          <p class="card-desc">
+            Descrição curta do projeto: o problema que resolve e o que ele faz.
+          </p>
+          <ul class="tags">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">Demo ↗</a>
+            <a href="#" target="_blank" rel="noopener">Código ↗</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <h3 class="card-title">Projeto Dois</h3>
+          <p class="card-desc">
+            Descrição curta do projeto: o problema que resolve e o que ele faz.
+          </p>
+          <ul class="tags">
+            <li>API</li><li>Node</li><li>SQL</li>
+          </ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">Demo ↗</a>
+            <a href="#" target="_blank" rel="noopener">Código ↗</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <h3 class="card-title">Projeto Três</h3>
+          <p class="card-desc">
+            Descrição curta do projeto: o problema que resolve e o que ele faz.
+          </p>
+          <ul class="tags">
+            <li>React</li><li>UI</li><li>Design</li>
+          </ul>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">Demo ↗</a>
+            <a href="#" target="_blank" rel="noopener">Código ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills + Contact -->
+    <section id="contato" class="section container">
+      <h2 class="section-title reveal"><span class="accent">#</span> Skills &amp; Contato</h2>
+
+      <div class="skills reveal">
+        <h3 class="subtitle">Tecnologias</h3>
+        <ul class="tags tags-lg">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>TypeScript</li>
+          <li>React</li><li>Node.js</li><li>Git</li><li>SQL</li>
+        </ul>
+      </div>
+
+      <div class="contact reveal">
+        <h3 class="subtitle">Vamos conversar</h3>
+        <p class="contact-text">
+          Aberto a oportunidades e parcerias. O jeito mais rápido de me achar:
+        </p>
+        <div class="contact-links">
+          <a href="mailto:antonioguerreiroborges@gmail.com" class="btn btn-primary">Email</a>
+          <a href="#" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+          <a href="#" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="brand">
+        <span class="brand-dot" aria-hidden="true"></span> Antonio
+      </span>
+      <p>© <span id="year"></span> Antonio Borges. Feito com HTML, CSS e JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
